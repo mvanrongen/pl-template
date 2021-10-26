@@ -33,7 +33,7 @@ ul ul,ul ol,ol ol,ol ul {margin-bottom: 0;}
 ul {list-style: square;}
 ol{margin-left:-20px}
 .lt-ie8 ol { padding: 0;margin: 0 0 9px 25px; }
-li {line-height: 18px;display:list-item}
+li {/*line-height: 18px*/;display:list-item}
 
 ol.campl-numbered { counter-reset: item;padding: 0;margin: 0 0 9px 0;list-style: decimal; }
 ol.campl-numbered li { display: block; }
@@ -80,11 +80,11 @@ mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
 abbr[title] {cursor: help;border-bottom: 1px dotted #999999;}
 abbr.initialism {font-size: 90%;text-transform: uppercase;}
 
-code, kbd, samp, pre {padding: 0 3px 2px;font-family: "Courier New", monospace;font-size: 12px;color: #333333;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+/*code, kbd, samp, pre {padding: 0 3px 2px;font-family: "Courier New", monospace;font-size: 12px;color: #333333;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 code {padding: 2px 4px;color: #d14;background-color: #f7f7f9;border: 1px solid #e1e1e8;}
 pre {display: block;padding: 8.5px;margin: 0 0 9px;font-size: 12.025px;line-height: 18px;word-break: break-all;word-wrap: break-word;white-space: pre;
 	white-space: pre-wrap;background-color: #f5f5f5;border: 1px solid #ccc;border: 1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius: 4px;-moz-border-radius: 4px;
-  	border-radius: 4px}
+  	border-radius: 4px}*/
 
 /* images */
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
@@ -245,7 +245,7 @@ a:active { color: #0072cf; text-decoration:none;border-bottom:0}
 .campl-skipTo:link{position:absolute;left:-5000px;top:0;color:#fff;padding:10px}
 .campl-skipTo:focus{left:5px;top:5px;color:#fff;display:block;position:relative}
 
-a.campl-external{background: url("../images/interface/icon-external-link.png") no-repeat 100% 4px;  padding-right:15px;}
+/*a.campl-external{background: url("../images/interface/icon-external-link.png") no-repeat 100% 4px;  padding-right:15px;}*/ /*do not show an icon for external links*/
 
 /* Load More */
 .campl-load-more-btn{background:#f3f3f3;border:1px solid #cdcdcd;margin-bottom:60px;text-align:center;display:block;padding:10px;}

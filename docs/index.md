@@ -1,7 +1,7 @@
 --- 
 title: "Core Statistics in R"
 author: "Matt Castle and Martin van Rongen"
-date: "`r Sys.Date()`"
+date: "2021-10-26"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -10,9 +10,7 @@ bibliography: [book.bib, packages.bib]
 description: "These are the supporting materials for the Core Statistics modules of the PSLS Biostatistics Initiative, Cambridge University." 
 ---
 
-```{r, setup, echo=FALSE}
-source(file = "setup.R")
-```
+
 
 # Overview
 

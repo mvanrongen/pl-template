@@ -1,40 +1,22 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="no-js">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <title>Live style guide</title>
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-  <!-- CSS : implied media="all" -->
-  <link rel="stylesheet" href="stylesheets/style.css" />
-  <link rel="stylesheet" href="stylesheets/full-stylesheet.css" />
-  <link rel="stylesheet" href="stylesheets/styleguide.css" />
-
-<!-- JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script>
-  $for(header-includes)$
-  $header-includes$
-  $endfor$
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script>
-
-<script type="text/javascript" src="//use.typekit.com/hyb5bko.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript">  document.documentElement.className += " js";</script>
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Chapter 3 Introduction | Live style guide</title>
+<meta name="description" content="3.1 Objectives  Aim: To introduce R commands for analysing single categorical predictors. By the end of this practical participants should be able to perform the following statistical analyses:...">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references --><link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!-- CSS : implied media="all" --><link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/full-stylesheet.css">
+<link rel="stylesheet" href="stylesheets/styleguide.css">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.5.3/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.5.3/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.4/tabs.js"></script><script src="libs/bs3compat-0.2.4/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><script type="text/javascript" src="//use.typekit.com/hyb5bko.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script><script type="text/javascript">  document.documentElement.className += " js";</script>
 </head>
 <body data-spy="scroll" data-target="#toc">
 
@@ -54,21 +36,20 @@
 		<div class="campl-wrap clearfix">
 			<div class="campl-header-container campl-column8" id="global-header-controls">
 				<a href="http://www.cam.ac.uk" class="campl-main-logo">
-					<img alt="University of Cambridge"  src="images/interface/main-logo-small.png" height="38px;" />
-				</a>
+					<img alt="University of Cambridge" src="images/interface/main-logo-small.png" height="38px;"></a>
 
 				<ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation clearfix">
-					<li>
-						<a  href="#study-with-us" >Study at Cambridge</a>
+<li>
+						<a href="#study-with-us">Study at Cambridge</a>
 					</li>
 					<li>
-						<a href="#about-the-university" >About the University</a>
+						<a href="#about-the-university">About the University</a>
 					</li>
 					<li>
-						<a href="http://www.cam.ac.uk/research" class="campl-no-drawer" >Research at Cambridge</a>
+						<a href="http://www.cam.ac.uk/research" class="campl-no-drawer">Research at Cambridge</a>
 					</li>
 				</ul>
-			</div>
+</div>
 
 			<div class="campl-column2">
 				<div class="campl-quicklinks">
@@ -82,10 +63,8 @@
 					<label for="header-search" class="hidden">Search site</label>
 					<div class="campl-search-input">
 						<form action="http://search.cam.ac.uk/web" method="get">
-						<input id="header-search" type="text" name="query" value="" placeholder="Search"/>
-
-						<input type="image" class="campl-search-submit " src="images/interface/btn-search-header.png"/>
-						</form>
+						<input id="header-search" type="text" name="query" value="" placeholder="Search"><input type="image" class="campl-search-submit " src="images/interface/btn-search-header.png">
+</form>
 					</div>
 				</div>
 			</div>
@@ -95,9 +74,8 @@
 		<div class="campl-wrap clearfix">
 			<form class="campl-site-search-form" id="site-search-container" action="">
 				<div class="campl-search-form-wrapper clearfix">
-					<input type="text" class="text" placeholder="Search"/>
-					<input type="image" class="campl-search-submit" src="images/interface/btn-search.png" />
-				</div>
+					<input type="text" class="text" placeholder="Search"><input type="image" class="campl-search-submit" src="images/interface/btn-search.png">
+</div>
 			</form>
 		</div>
 	</div>
@@ -106,174 +84,174 @@
 
 		<div class="campl-wrap clearfix">
 			<div class="campl-column12 campl-home-link-container">
-				<a href="" >Home</a>
+				<a href="">Home</a>
 			</div>
 		</div>
 		<div class="campl-wrap clearfix">
 			<div class="campl-column12 campl-global-navigation-mobile-list campl-global-navigation-list">
 				<div class="campl-global-navigation-outer clearfix" id="study-with-us">
 					<ul class="campl-unstyled-list campl-global-navigation-header-container ">
-						<li><a href="http://www.cam.ac.uk/study-at-cambridge" >Study at Cambridge</a></li>
+<li><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></li>
 					</ul>
-					<div class="campl-column4">
+<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
-							<li>
-								<a href="http://www.study.cam.ac.uk/undergraduate/" >Undergraduate</a>
+<li>
+								<a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
 								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
-									<li>
-										<a href="http://www.undergraduate.study.cam.ac.uk/courses" >Courses</a>
+<li>
+										<a href="http://www.undergraduate.study.cam.ac.uk/courses">Courses</a>
 									</li>
 									<li>
-										<a href="http://www.undergraduate.study.cam.ac.uk/applying" >Applying</a>
+										<a href="http://www.undergraduate.study.cam.ac.uk/applying">Applying</a>
 									</li>
 									<li>
-										<a href="http://www.undergraduate.study.cam.ac.uk/events" >Events and open days</a>
+										<a href="http://www.undergraduate.study.cam.ac.uk/events">Events and open days</a>
 									</li>
 								  <li>
-										<a href="http://www.undergraduate.study.cam.ac.uk/finance" >Fees and finance</a>
+										<a href="http://www.undergraduate.study.cam.ac.uk/finance">Fees and finance</a>
 									</li>
 								  <li>
-										<a href="http://www.becambridge.com/" >Student blogs and videos</a>
+										<a href="http://www.becambridge.com/">Student blogs and videos</a>
 									</li>
 								</ul>
-							</li>
+</li>
 						</ul>
-					</div>
+</div>
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
-							<li>
-								<a href="http://www.graduate.study.cam.ac.uk/" >Graduate</a>
+<li>
+								<a href="http://www.graduate.study.cam.ac.uk/">Graduate</a>
 								<ul class="campl-global-navigation-tertiary campl-unstyled-list">
-									<li>
-										<a href="http://www.graduate.study.cam.ac.uk/why-cambridge/welcome-vice-chancellor" >Why Cambridge</a>
+<li>
+										<a href="http://www.graduate.study.cam.ac.uk/why-cambridge/welcome-vice-chancellor">Why Cambridge</a>
 									</li>
 									<li>
-										<a href="http://www.graduate.study.cam.ac.uk/courses
-" >Course directory</a>
+										<a href="http://www.graduate.study.cam.ac.uk/courses%0A">Course directory</a>
 									</li>
 									<li>
-									<a href="http://www.graduate.study.cam.ac.uk/how-do-i-apply" >How to apply</a></li>
-									<li><a href="http://www.cambridgestudents.cam.ac.uk/fees-and-funding" >Fees and funding</a></li>
-									<li><a href="http://www.graduate.study.cam.ac.uk/faqs/applicant" >Frequently asked questions</a></li>
+									<a href="http://www.graduate.study.cam.ac.uk/how-do-i-apply">How to apply</a>
+</li>
+									<li><a href="http://www.cambridgestudents.cam.ac.uk/fees-and-funding">Fees and funding</a></li>
+									<li><a href="http://www.graduate.study.cam.ac.uk/faqs/applicant">Frequently asked questions</a></li>
 								</ul>
-							</li>
+</li>
 						</ul>
-					</div>
+</div>
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list last">
-							<li>
-								<a href="http://www.internationalstudents.cam.ac.uk" >International students</a>
+<li>
+								<a href="http://www.internationalstudents.cam.ac.uk">International students</a>
 							</li>
 							<li>
-								<a href="http://www.ice.cam.ac.uk" >Continuing education</a>
+								<a href="http://www.ice.cam.ac.uk">Continuing education</a>
 							</li>
 							<li>
-								<a href="http://www.epe.admin.cam.ac.uk/" >Executive and professional education</a>
+								<a href="http://www.epe.admin.cam.ac.uk/">Executive and professional education</a>
 							</li>
 							<li>
-								<a href="http://www.educ.cam.ac.uk" >Courses in education</a>
+								<a href="http://www.educ.cam.ac.uk">Courses in education</a>
 							</li>
 						</ul>
-					</div>
+</div>
 				</div>
 
 				<div class="campl-global-navigation-outer clearfix" id="about-the-university">
 					<ul class="campl-global-navigation-header-container campl-unstyled-list">
-						<li><a href="http://www.cam.ac.uk/about-the-university" >About the University</a></li>
+<li><a href="http://www.cam.ac.uk/about-the-university">About the University</a></li>
 					</ul>
-					<div class="campl-column4">
+<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list">
-							<li>
-								<a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work" >How the University and Colleges work</a>
+<li>
+								<a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the University and Colleges work</a>
 							</li>
 							<li>
-								<a href="http://www.cam.ac.uk/about-the-university/history" >History</a>
+								<a href="http://www.cam.ac.uk/about-the-university/history">History</a>
 							</li>
 							<li>
-								<a href="http://www.cam.ac.uk/about-the-university/visiting-the-university" >Visiting the University</a>
+								<a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
 							</li>
 							<li>
-								<a href="http://www.cam.ac.uk/about-the-university/term-dates-and-calendars" >Term dates and calendars</a>
+								<a href="http://www.cam.ac.uk/about-the-university/term-dates-and-calendars">Term dates and calendars</a>
 							</li>
 							<li class="last">
-								<a href="http://map.cam.ac.uk" >Map</a>
+								<a href="http://map.cam.ac.uk">Map</a>
 							</li>
 						</ul>
-					</div>
+</div>
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list">
-							<li>
-								<a href="http://www.communications.cam.ac.uk/" >For media</a>
+<li>
+								<a href="http://www.communications.cam.ac.uk/">For media</a>
 							</li>
 							<li>
-								<a href="http://www.cam.ac.uk/video-and-audio" >Video and audio</a>
+								<a href="http://www.cam.ac.uk/video-and-audio">Video and audio</a>
 							</li>
 							<li>
-								<a href="http://webservices.admin.cam.ac.uk/fae/" >Find an expert</a>
+								<a href="http://webservices.admin.cam.ac.uk/fae/">Find an expert</a>
 							</li>
 							<li>
-								<a href="http://www.cam.ac.uk/about-the-university/publications" >Publications</a>
+								<a href="http://www.cam.ac.uk/about-the-university/publications">Publications</a>
 							</li>
 							<li class="last">
-								<a href="http://www.cam.ac.uk/global-cambridge" >Global Cambridge</a>
+								<a href="http://www.cam.ac.uk/global-cambridge">Global Cambridge</a>
 							</li>
 						</ul>
-					</div>
+</div>
 					<div class="campl-column4">
 						<ul class="campl-global-navigation-container campl-unstyled-list">
-							<li>
-								<a href="http://www.cam.ac.uk/news" >News</a>
+<li>
+								<a href="http://www.cam.ac.uk/news">News</a>
 							</li>
 							<li>
-								<a href="http://www.admin.cam.ac.uk/whatson/" >Events</a>
+								<a href="http://www.admin.cam.ac.uk/whatson/">Events</a>
 							</li>
 							<li>
-								<a href="http://www.cam.ac.uk/public-engagement" >Public engagement</a>
+								<a href="http://www.cam.ac.uk/public-engagement">Public engagement</a>
 							</li>
 							<li>
-								<a href="http://www.jobs.cam.ac.uk" >Jobs</a>
+								<a href="http://www.jobs.cam.ac.uk">Jobs</a>
 							</li>
 							<li class="last">
-								<a href="https://www.philanthropy.cam.ac.uk/" >Give to Cambridge</a>
+								<a href="https://www.philanthropy.cam.ac.uk/">Give to Cambridge</a>
 							</li>
 						</ul>
-					</div>
+</div>
 				</div>
 
 				<div class="campl-global-navigation-outer clearfix" id="our-research">
 					<ul class="campl-global-navigation-header-container campl-unstyled-list">
-						<li><a href="" >Research at Cambridge</a></li>
+<li><a href="">Research at Cambridge</a></li>
 					</ul>
-				</div>
+</div>
 			</div>
 
 			<ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
-				<li>
-					<a href="http://www.cam.ac.uk/for-staff" >For staff</a>
+<li>
+					<a href="http://www.cam.ac.uk/for-staff">For staff</a>
 				</li>
 				<li>
-					<a href="http://www.cam.ac.uk/current-students" >For current students</a>
+					<a href="http://www.cam.ac.uk/current-students">For current students</a>
 				</li>
 				<li>
-					<a href="http://www.alumni.cam.ac.uk" >For alumni</a>
+					<a href="http://www.alumni.cam.ac.uk">For alumni</a>
 				</li>
 				<li>
-					<a href="http://www.cam.ac.uk/for-business" >For business</a>
+					<a href="http://www.cam.ac.uk/for-business">For business</a>
 				</li>
 				<li>
-					<a href="http://www.cam.ac.uk/colleges-and-departments" >Colleges &amp; departments</a>
+					<a href="http://www.cam.ac.uk/colleges-and-departments">Colleges &amp; departments</a>
 				</li>
 				<li>
-					<a href="http://www.lib.cam.ac.uk/libraries/" >Libraries &amp; facilities</a>
+					<a href="http://www.lib.cam.ac.uk/libraries/">Libraries &amp; facilities</a>
 				</li>
 				<li>
-					<a href="http://www.cam.ac.uk/museums-and-collections" >Museums &amp; collections</a>
+					<a href="http://www.cam.ac.uk/museums-and-collections">Museums &amp; collections</a>
 				</li>
 				<li class="last">
-					<a href="http://www.cam.ac.uk/email-and-phone-search" >Email &amp; phone search</a>
+					<a href="http://www.cam.ac.uk/email-and-phone-search">Email &amp; phone search</a>
 				</li>
 			</ul>
-		</div>
+</div>
 	</div>
     <!-- .campl-global-header ends -->
 
@@ -283,7 +261,7 @@
 				<div class="campl-content-container">
 					<div class="campl-breadcrumb" id="breadcrumb">
 						<ul class="campl-unstyled-list campl-horizontal-navigation clearfix">
-							<li class='first-child'>
+<li class="first-child">
 								<a href="#" class="campl-home ir">Home</a>
 							</li>
 							<li>
@@ -299,8 +277,7 @@
 								<p class="campl-current">Course directory</p>
 							</li>
 						</ul>
-
-					</div>
+</div>
 					<p class="campl-page-title">Bioinformatics Training Materials</p>
 
 					<p class="campl-mobile-parent"><a href=""><span class="campl-back-btn campl-menu-indicator"></span>Studying at Cambridge</a></p>
@@ -313,19 +290,22 @@
 		<div class="campl-wrap clearfix campl-local-navigation" id="local-nav">
 			<div class="campl-local-navigation-container">
 				<ul class="campl-unstyled-list">
-					<li><a href="#">About us</a></li>
-					<li><a href="#" class="campl-selected">Prospective Students</a>
+<li><a href="#">About us</a></li>
+					<li>
+<a href="#" class="campl-selected">Prospective Students</a>
 						<ul class="campl-unstyled-list local-dropdown-menu">
-							<li><a href="#">Step 1 - Why Cambridge</a>
+<li>
+<a href="#">Step 1 - Why Cambridge</a>
 								<ul class="campl-unstyled-list local-dropdown-menu">
-									<li><a href="#">The City</a></li>
+<li><a href="#">The City</a></li>
 									<li><a href="#">The University</a></li>
 									<li><a href="#">Benefits of Studying at Cambridge</a></li>
 								</ul>
-							</li>
-							<li><a href="#">Step 2 - Studying at Cambridge</a>
+</li>
+							<li>
+<a href="#">Step 2 - Studying at Cambridge</a>
 								<ul class="campl-unstyled-list local-dropdown-menu">
-									<li><a href="#">Course directory</a></li>
+<li><a href="#">Course directory</a></li>
 									<li><a href="#">Modes of Study</a></li>
 									<li><a href="#">Fees and Costs</a></li>
 									<li><a href="#">Funding Your Studies</a></li>
@@ -335,10 +315,11 @@
 									<li><a href="#">The Colleges</a></li>
 									<li><a href="#">University Policy and Guidelines</a></li>
 								</ul>
-							</li>
-							<li><a href="#">Step 3 - How to apply</a>
+</li>
+							<li>
+<a href="#">Step 3 - How to apply</a>
 								<ul class="campl-unstyled-list local-dropdown-menu">
-									<li><a href="#">Supporting Documentation</a></li>
+<li><a href="#">Supporting Documentation</a></li>
 									<li><a href="#">Continuation and Readmission</a></li>
 									<li><a href="#">Your Self-Service Account</a></li>
 									<li><a href="#">Application and Funding Deadlines</a></li>
@@ -353,10 +334,11 @@
 									<li><a href="#">Starting Dates</a></li>
 									<li><a href="#">Applying Paper</a></li>
 								</ul>
-							</li>
-							<li><a href="#">Step 4 - I've applied - What Next?</a>
+</li>
+							<li>
+<a href="#">Step 4 - I've applied - What Next?</a>
 								<ul class="campl-unstyled-list local-dropdown-menu">
-									<li><a href="#">Status Of Your Application</a></li>
+<li><a href="#">Status Of Your Application</a></li>
 									<li><a href="#">Conditions of Admission</a></li>
 									<li><a href="#">If Your Circumstances Change</a></li>
 									<li><a href="#">Confirmation of Admission</a></li>
@@ -364,18 +346,19 @@
 									<li><a href="#">Immigration</a></li>
 									<li><a href="#">Admissions Complaints</a></li>
 								</ul>
-							</li>
-							<li><a href="#">Frequently asked questions</a>
+</li>
+							<li>
+<a href="#">Frequently asked questions</a>
 								<ul class="campl-unstyled-list local-dropdown-menu">
-									<li><a href="#">Prospective Graduate Students</a></li>
+<li><a href="#">Prospective Graduate Students</a></li>
 									<li><a href="#">Referees</a></li>
 								</ul>
-							</li>
+</li>
 							<li><a href="#">Site map</a></li>
 						</ul>
-					</li>
+</li>
 				</ul>
-			</div>
+</div>
 		</div>
 
 
@@ -383,7 +366,7 @@
 		<div class="campl-wrap clearfix campl-page-sub-title campl-recessed-sub-title">
 			<div class="campl-column12">
 				<div class="campl-content-container">
-					<p class="campl-sub-title">$pagetitle$</p>
+					<p class="campl-sub-title">Core Statistics in R</p>
 				</div>
 			</div>
 		</div>
@@ -395,18 +378,12 @@
 				<div class="campl-column9  campl-main-content" id="content">
 					<div class="campl-content-container">
 						<div>
-<!--bookdown:title:start-->
-<!--bookdown:title:end-->
-
-<!--bookdown:toc:start-->
 <div class="row">
-  <header class="col-sm-12 col-lg-3 sidebar sidebar-book">
-    <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 
     <div class="d-flex align-items-start justify-content-between">
       <h1>
-        <a href="index.html" title="$subtitle$">$title$</a>$if(subtitle)$:
-        <small class="text-muted">$subtitle$</small>$endif$
+        <a href="index.html" title="">Core Statistics in R</a>
       </h1>
       <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
@@ -414,45 +391,86 @@
     <div id="main-nav" class="collapse-lg">
       <form role="search">
         <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
-      </form>
+</form>
 
-      <nav aria-label="Table of contents">
-        <h2>Table of contents</h2>
-        <div id="book-toc"></div>
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> Overview</a></li>
+<li class="book-part">CoreStats 1: Simple hypothesis testing</li>
+<li><a class="" href="cs1-intro.html"><span class="header-section-number">2</span> Introduction</a></li>
+<li class="book-part">CoreStats 2: Single categorical predictors</li>
+<li><a class="active" href="cs2-intro.html"><span class="header-section-number">3</span> Introduction</a></li>
+<li><a class="" href="cs2-anova.html"><span class="header-section-number">4</span> ANOVA</a></li>
+</ul>
 
         <div class="book-extra">
-          <p><a id="book-repo" href="#">View book source <i class="fab fa-github"></i></a></li></p>
+          
         </div>
       </nav>
-    </div>
-  </header>
-
-  <main class="col-sm-12 col-md-9 col-lg-7" id="content">
-$for(include-before)$
-$include-before$
-$endfor$
-<!--bookdown:toc:end-->
-<!--bookdown:body:start-->
-$body$
-<!--bookdown:body:end-->
-$for(include-after)$
-$include-after$
-$endfor$
-  </main>
-
-  <div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
-    <nav id="toc" data-toggle="toc" aria-label="On this page">
-      <h2>On this page</h2>
-      <div id="book-on-this-page"></div>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="cs2-intro" class="section level1" number="3">
+<h1>
+<span class="header-section-number">3</span> Introduction<a class="anchor" aria-label="anchor" href="#cs2-intro"><i class="fas fa-link"></i></a>
+</h1>
+<div id="objectives-1" class="section level2" number="3.1">
+<h2>
+<span class="header-section-number">3.1</span> Objectives<a class="anchor" aria-label="anchor" href="#objectives-1"><i class="fas fa-link"></i></a>
+</h2>
+<div class="objectives">
+<p><strong>Aim: To introduce R commands for analysing single categorical predictors.</strong></p>
+<p>By the end of this practical participants should be able to perform the following statistical analyses:</p>
+<ol style="list-style-type: decimal">
+<li>One-way Analysis of Variance (ANOVA)</li>
+<li>Kruskal-Wallis test</li>
+</ol>
+<p>For each of these, participants should be able to:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Perform the test in R</li>
+<li>Interpret the output</li>
+<li>Check the assumptions of the test</li>
+<li>Carry out a post-hoc test if appropriate</li>
+</ol>
+</div>
+<p>The tests covered in this practical are:</p>
+<ul>
+<li>One-way ANOVA</li>
+<li>Kruskall-Wallis test</li>
+</ul>
+</div>
+<div id="background-1" class="section level2" number="3.2">
+<h2>
+<span class="header-section-number">3.2</span> Background<a class="anchor" aria-label="anchor" href="#background-1"><i class="fas fa-link"></i></a>
+</h2>
+<p>This practical focuses on the implementation of various statistical tests relating to categorical predictors. These boil down to ANOVA and Kruskal-Wallis (which is a non-parametric alternative).
+Again, it does not focus on the underlying theory of the tests (although the demonstrators will be happy to answer any questions that you may have).</p>
+<p>For each test there will be a section that:</p>
+<ul>
+<li>explains the purpose of the test,</li>
+<li>explains how to visualise the data,</li>
+<li>explains how to perform the test in R,</li>
+<li>explains how to interpret the output and report the results, and</li>
+<li>explains how to assess the assumptions required to perform the test.</li>
+</ul>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="cs1-intro.html"><span class="header-section-number">2</span> Introduction</a></div>
+<div class="next"><a href="cs2-anova.html"><span class="header-section-number">4</span> ANOVA</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#cs2-intro"><span class="header-section-number">3</span> Introduction</a></li>
+<li><a class="nav-link" href="#objectives-1"><span class="header-section-number">3.1</span> Objectives</a></li>
+<li><a class="nav-link" href="#background-1"><span class="header-section-number">3.2</span> Background</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-          <li><a id="book-source" href="#">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="#">Edit this page <i class="fab fa-github"></i></a></li>
+          
         </ul>
-      </div>
+</div>
     </nav>
-  </div>
+</div>
 
 </div>
 </div> <!-- .container -->
@@ -497,7 +515,7 @@ $endfor$
 					<div class="campl-content-container campl-navigation-list">
 						<h3><a href="">About the Faculty</a></h3>
 						<ul class="campl-unstyled-list">
-							<li>
+<li>
 								<a href="">Lorem ipsum dolor</a>
 							</li>
 							<li>
@@ -513,11 +531,11 @@ $endfor$
 								<a href="">Tempor incididunt</a>
 							</li>
 						</ul>
-					</div>
+</div>
 					<div class="campl-content-container campl-navigation-list">
 						<h3><a href="">Research</a></h3>
 						<ul class="campl-unstyled-list">
-							<li>
+<li>
 								<a href="">Ut labore et dolore</a>
 							</li>
 							<li>
@@ -527,13 +545,13 @@ $endfor$
 								<a href="">Magna aliqua</a>
 							</li>
 						</ul>
-					</div>
+</div>
 				</div>
 				<div class="campl-column3 campl-footer-navigation">
 					<div class="campl-content-container campl-navigation-list">
 						<h3><a href="">About the University</a></h3>
 						<ul class="campl-unstyled-list">
-							<li>
+<li>
 								<a href="">Quis nostrud exercitation</a>
 							</li>
 							<li>
@@ -546,11 +564,11 @@ $endfor$
 								<a href="">Duis aute irure dolor</a>
 							</li>
 						</ul>
-					</div>
+</div>
 					<div class="campl-content-container campl-navigation-list">
 						<h3><a href="">Libraries &amp; facilities</a></h3>
 						<ul class="campl-unstyled-list">
-							<li>
+<li>
 								<a href="">In reprehenderit in voluptate</a>
 							</li>
 							<li>
@@ -563,26 +581,26 @@ $endfor$
 								<a href="">Duis aute irure dolor</a>
 							</li>
 						</ul>
-					</div>
+</div>
 				</div>
 				<div class="campl-column3 campl-footer-navigation">
 					<div class="campl-content-container campl-navigation-list">
 						<h3><a href="">Graduate</a></h3>
 						<ul class="campl-unstyled-list">
-							<li>
+<li>
 								<a href="">Excepteur sint occaecat</a>
 							</li>
 							<li>
 								<a href="">Cupidatat non proident</a>
 							</li>
 						</ul>
-					</div>
+</div>
 				</div>
 				<div class="campl-column3 campl-footer-navigation last">
 					<div class="campl-content-container campl-navigation-list">
 						<h3><a href="">Subjects</a></h3>
 						<ul class="campl-unstyled-list">
-							<li>
+<li>
 								<a href="">Sunt in culpa qui officia</a>
 							</li>
 							<li>
@@ -595,7 +613,7 @@ $endfor$
 								<a href="">Duis aute irure dolor</a>
 							</li>
 						</ul>
-					</div>
+</div>
 				</div>
 			</div>
 		</div>
@@ -603,10 +621,9 @@ $endfor$
 		<div class="campl-wrap clearfix">
 			<div class="campl-column3 campl-footer-navigation">
 				<div class="campl-content-container campl-footer-logo">
-					<img alt="University of Cambridge"  src="images/interface/main-logo-small.png" height="38px;" class="campl-scale-with-grid" />
-					<p>&#169; 2015 University of Cambridge</p>
+					<img alt="University of Cambridge" src="images/interface/main-logo-small.png" height="38px;" class="campl-scale-with-grid"><p>© 2015 University of Cambridge</p>
 						<ul class="campl-unstyled-list campl-global-footer-links">
-							<li>
+<li>
 								<a href="http://www.cam.ac.uk/university-a-z">University A-Z</a>
 							</li>
 							<li>
@@ -622,7 +639,7 @@ $endfor$
 								<a href="http://www.cam.ac.uk/about-this-site/terms-and-conditions">Terms and conditions</a>
 							</li>
 						</ul>
-				</div>
+</div>
 			</div>
 			<div class="campl-column3 campl-footer-navigation">
 				<div class="campl-content-container campl-navigation-list">
@@ -630,7 +647,7 @@ $endfor$
 					<div class="link-list">
 						<h3><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></h3>
 						<ul class="campl-unstyled-list">
-							<li>
+<li>
 								<a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
 							</li>
 							<li>
@@ -649,14 +666,14 @@ $endfor$
 								<a href="http://www.educ.cam.ac.uk">Courses in education</a>
 							</li>
 						</ul>
-					</div>
+</div>
 				</div>
 			</div>
 			<div class="campl-column3 campl-footer-navigation">
 				<div class="campl-content-container campl-navigation-list">
 					<h3><a href="http://www.cam.ac.uk/about-the-university">About the University</a></h3>
 					<ul class="campl-unstyled-list campl-page-children">
-						<li>
+<li>
 							<a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the University and Colleges work</a>
 						</li>
 						<li>
@@ -678,13 +695,13 @@ $endfor$
 							<a href="https://www.philanthropy.cam.ac.uk/">Give to Cambridge</a>
 						</li>
 					</ul>
-				</div>
+</div>
 			</div>
 			<div class="campl-column3 campl-footer-navigation last">
 				<div class="campl-content-container campl-navigation-list">
 					<h3><a href="http://www.cam.ac.uk/research">Research at Cambridge</a></h3>
 					<ul class="campl-unstyled-list">
-						<li>
+<li>
 							<a href="http://www.cam.ac.uk/research/news">News</a>
 						</li>
 						<li>
@@ -700,7 +717,7 @@ $endfor$
 							<a href="http://www.cam.ac.uk/research/research-at-cambridge">About research at Cambridge</a>
 						</li>
 					</ul>
-				</div>
+</div>
 			</div>
 		</div>
 	</div>
@@ -710,18 +727,11 @@ $endfor$
 </div>
 <![endif]-->
 
-	<script type="text/javascript" src="javascripts/libs/ios-orientationchange-fix.js"></script>
-  	<script type="text/javascript" src="javascripts/libs/jquery-min.js"></script>
-	<script type="text/javascript" src="javascripts/libs/modernizr.js"></script>
-  	<script type="text/javascript" src="javascripts/custom.js"></script>
-
-$if(math)$
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
+	<script type="text/javascript" src="javascripts/libs/ios-orientationchange-fix.js"></script><script type="text/javascript" src="javascripts/libs/jquery-min.js"></script><script type="text/javascript" src="javascripts/libs/modernizr.js"></script><script type="text/javascript" src="javascripts/custom.js"></script><!-- dynamically load mathjax for compatibility with self-contained --><script>
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "$if(mathjax)$$mathjax$$endif$";
+    var src = "true";
     if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
@@ -729,8 +739,7 @@ $if(math)$
     script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
-</script>
-<script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
 for (let popover of popovers) {
   const div = document.createElement('div');
   div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
@@ -747,7 +756,5 @@ for (let popover of popovers) {
   }
 }
 </script>
-$endif$
-
 </body>
 </html>
