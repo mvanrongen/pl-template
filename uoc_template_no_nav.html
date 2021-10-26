@@ -20,11 +20,21 @@
   <link rel="stylesheet" href="stylesheets/full-stylesheet.css" />
   <link rel="stylesheet" href="stylesheets/styleguide.css" />
 
+<!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script>
+  $for(header-includes)$
+  $header-includes$
+  $endfor$
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script>
+
 <script type="text/javascript" src="//use.typekit.com/hyb5bko.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <script type="text/javascript">  document.documentElement.className += " js";</script>
 </head>
-<body>
+<body data-spy="scroll" data-target="#toc">
 
 <!--[if lt IE 7]>
 <div class="lt-ie9 lt-ie8 lt-ie7">
@@ -381,8 +391,7 @@
 		<div class="campl-row campl-content campl-recessed-content">
 			<div class="campl-wrap clearfix">
 				<div class="campl-column9  campl-main-content" id="content">
-					<div class="campl-content-container">
-						<div class="container-fluid">
+				  <div>
 <!--bookdown:title:start-->
 <!--bookdown:title:end-->
 
@@ -444,38 +453,8 @@ $endfor$
 
 </div>
 </div> <!-- .container -->
+				</div>
 
-					</div>
-				</div>
-				<div class="campl-column3 campl-secondary-content">
-					<div class="campl-content-container">
-						<div class="campl-heading-container">
-							<h2>Related Links</h2>
-						</div>
-						<ul class='campl-unstyled-list campl-related-links'>
-							<li><a href="#">Lorem ipsum dolor sit amet</a></li>
-							<li><a href="#">Consectetur adipisicing elit</a></li>
-							<li><a href="#">Sed do eiusmod tempor incididunt extra long wrapping on to two line</a></li>
-							<li><a href="#">Labore et dolore magna aliqua</a></li>
-							<li><a href="#">Ut enim ad minim veniam</a></li>
-							<li><a href="#">Quis nostrud exercitation ullamco</a></li>
-						</ul>
-					</div>
-					<div class="campl-content-container">
-						<div class="campl-vertical-teaser campl-teaser campl-promo-teaser">
-							<div class="campl-content-container campl-vertical-teaser-txt">
-								<p class='campl-teaser-title'><a href="#">Promo teaser with title above</a></p>
-							</div>
-							<div class="campl-content-container campl-vertical-teaser-img">
-								<a href="#" class="campl-teaser-img-link"><img alt=""  src="images/content/homepage-promo-placeholder.png" class="campl-scale-with-grid" /></a>
-							</div>
-							<div class="campl-content-container campl-vertical-teaser-txt clearfix">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-								<a href="#4" class="campl-secondary-cta campl-float-right">Read more</a>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 		<div class="campl-row campl-local-footer">
